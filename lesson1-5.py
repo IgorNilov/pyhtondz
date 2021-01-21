@@ -1,4 +1,4 @@
-pribil = int(input('введите прибыль:'))
+pribil = int(input('введите прибыль :'))
 izder = int(input('введите издержки :'))
 a = pribil - izder
 b = int()
