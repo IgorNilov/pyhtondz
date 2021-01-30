@@ -1,2 +1,3 @@
-my = [i if i % 20 else i % 21 for i in range(20, 240)]
-print(my)
+result = (i for i in range(20, 241) if not i % 20 or not i % 21)
+print(list(result))
+
