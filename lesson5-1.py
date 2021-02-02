@@ -1,5 +1,5 @@
 fail = input('имя файла :')
-f = open(fail, 'w')
+f = open(fail, 'w', encoding='utf-8')
 while True:
     s = input('Введите строку : \n')
     if s == '': break
