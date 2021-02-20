@@ -1,4 +1,4 @@
-number = int(input('Введите число:'))
+number = int(input('Введите число :'))
 i = 0
 while number > 0:
     c = number % 10
